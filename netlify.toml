@@ -4,3 +4,7 @@
 [build.environment]
   NODE_VERSION = "18"  # Set the desired Node.js version
 
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
