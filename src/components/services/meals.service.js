@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 // const baseURL = "http://localhost:4000/api";
-// const baseURL = "https://chefbot-g5cc0d0gp-draxx023.vercel.app/api"
+const baseURL = "https://chefbot-api.onrender.com/api/"
 
-const baseURL = process.env.REACT_APP_API_URL;
+// const baseURL = process.env.REACT_APP_API_URL;
 
 const getRandomMeal = async () => {
     try {
